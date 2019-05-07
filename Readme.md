@@ -1,11 +1,6 @@
 ![Shadowsocks](https://github.com/teddysun/shadowsocks_install/raw/master/shadowsocks.png)
 # Auto install Shadowsocks Server
 
-shadowsocks.sh
-===============
-- Auto Install Shadowsocks(Python) Server for CentOS/Debian/Ubuntu
-- https://teddysun.com/342.html
-
 shadowsocks-libev.sh
 ===============
 - Auto Install Shadowsocks(libev) Server for CentOS
@@ -14,17 +9,7 @@ shadowsocks-libev.sh
 shadowsocks-libev-debian.sh
 ===============
 - Auto Install Shadowsocks(libev) Server for Debian/Ubuntu
-- https://teddysun.com/358.html
-
-shadowsocks-go.sh
-===============
-- Auto Install Shadowsocks(Go) Server for CentOS/Debian/Ubuntu
-- https://teddysun.com/392.html
-
-shadowsocks-crond.sh
-===============
-- Check Shadowsocks(All version) Server is running or not, and start it if not running
-- https://teddysun.com/525.html
+- wget --no-check-certificate -O shadowsocks-libev-debian.sh https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks-libev-debian.sh && chmod +x shadowsocks-libev-debian.sh && ./shadowsocks-libev-debian.sh 2>&1 | tee shadowsocks-libev-debian.log
 
 shadowsocksR.sh
 ===============
